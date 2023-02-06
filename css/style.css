@@ -4,3 +4,67 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* HEADER */
+header {
+    height: 400px;
+    background-color: rgba(0,0,139,255);
+}
+
+.nav-header {
+    height: 50px;
+    background-color: rgb(123,251,211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container {
+    height: 30px;
+    width: 700px;
+    background-color: rgba(218,165,32,255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px black dashed;
+}
+
+.logo {
+    padding: 0 10px;
+}
+
+.login {
+    padding: 0 10px;
+}
+
+.link {
+    padding: 0 150px 0 150px;
+    border: 2px black dashed;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    padding: 0 5px;
+}
+
+h1 {
+    height: 300px;
+    width: 600px;
+    background-color: rgba(238,130,238,255);
+    margin: 25px 0;
+    border: 2px black dashed;
+}
+
+/* MAIN */
