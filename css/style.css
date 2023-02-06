@@ -19,6 +19,13 @@ header {
     background-color: rgba(0,0,139,255);
 }
 
+.container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 .nav-header {
     height: 50px;
     background-color: rgb(123,251,211);
@@ -29,7 +36,7 @@ header {
 
 .nav-container {
     height: 30px;
-    width: 700px;
+    width: 100%;
     background-color: rgba(218,165,32,255);
     display: flex;
     align-items: center;
@@ -46,7 +53,7 @@ header {
 }
 
 .link {
-    padding: 0 150px 0 150px;
+    padding: 0 200px 0 200px;
     border: 2px black dashed;
     height: 30px;
     display: flex;
@@ -61,10 +68,51 @@ header {
 
 h1 {
     height: 300px;
-    width: 600px;
+    width: 70%;
     background-color: rgba(238,130,238,255);
     margin: 25px 0;
     border: 2px black dashed;
 }
 
 /* MAIN */
+.container-section {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding: 25px 0;
+}
+
+.blue {
+    height: 400px;
+    width: 60%;
+    background-color: rgba(30,144,255,255);
+    border: 2px black dashed;
+}
+
+.pink {
+    height: 400px;
+    width: 40%;
+    background-color: #ffc0cb;
+    border: 2px black dashed;
+}
+
+.gray {
+    /* height: 450px; */
+    /* width: 100%; */
+    background-color: rgba(211,211,211,255);;
+}
+
+.container-section2 {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 25px 0;
+}
+
+.green {
+    height: 800px;
+    width: 100%;
+    background-color: rgba(34,139,34,255);
+    border: 2px black dashed;
+}
